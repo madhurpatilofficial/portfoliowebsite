@@ -140,11 +140,11 @@ nav.sticky .menu-btn {
 .home {
   height: 100vh;
   width: 100%;
-  background: url("images/b13.jpg") no-repeat;
+  background: url("images/b5.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   font-family: 'Ubuntu', sans-serif;
+  background-position: center;
 }
 
 .home .home-content {
@@ -263,7 +263,7 @@ section .title span::after {
   border-radius: 30px;
   -moz-box-shadow: 0 0 30px rgb(0, 0, 0);
   -webkit-box-shadow: 0 0 30px rgb(0, 0, 0);
-  box-shadow: 0 0 30px #f9238e;
+  box-shadow: 0 0 30px #00b7ff;
 
 }
 
@@ -287,7 +287,7 @@ section .button {
   margin: 16px 0;
 }
 
-.but >a{
+.but>a {
   color: #000000;
 }
 
@@ -461,8 +461,8 @@ footer .text span a:hover {
   text-decoration: underline;
 }
 
-.text >h6{
-  font-size:medium;
+.text>h6 {
+  font-size: medium;
 }
 
 /* Scroll TO Top Button CSS */
