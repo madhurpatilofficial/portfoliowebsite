@@ -81,7 +81,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: #000000;
   padding: 6px 0;
@@ -287,14 +287,18 @@ section .button {
   margin: 16px 0;
 }
 
+.but >a{
+  color: #000000;
+}
+
 section .button button {
   outline: none;
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 8px;
   font-size: 25px;
   font-weight: 400;
-  background: #512ea3;
-  color: #fff;
+  background: #87CEFA;
+  color: #000000;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -447,25 +451,18 @@ progress {
 
 /* Footer CSS */
 footer {
-  background: #4070f4;
-  padding: 15px 0;
+  background: #2aadff;
+  padding: 25px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
-footer .text span {
-  font-size: 17px;
-  font-weight: 400;
-  color: #fff;
-}
-
-footer .text span a {
-  font-weight: 500;
-  color: #FFF;
-}
-
 footer .text span a:hover {
   text-decoration: underline;
+}
+
+.text >h6{
+  font-size:medium;
 }
 
 /* Scroll TO Top Button CSS */
@@ -707,7 +704,7 @@ footer .text span a:hover {
 }
 
 .but {
-  background-color: #d6d6d6;
+  background-color: #87CEFA;
   border: none;
   padding: 15px 32px;
   text-align: center;
