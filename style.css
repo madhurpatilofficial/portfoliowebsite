@@ -378,7 +378,7 @@ progress {
   text-align: center;
   border-radius: 50px;
   padding: 30px 10px;
-  box-shadow: 0 0 30px rgb(30, 214, 247);
+  box-shadow: 0 0 30px rgb(30, 214, 247, 0.5);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -500,7 +500,7 @@ footer .text span a:hover {
   text-align: center;
   border-radius: 50px;
   padding: 30px 10px;
-  box-shadow: 0 0 30px rgb(147, 51, 234);
+  box-shadow: 0 0 30px rgb(147, 51, 234, 0.5);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -535,7 +535,7 @@ footer .text span a:hover {
   text-align: center;
   border-radius: 50px;
   padding: 30px 10px;
-  box-shadow: 0 0 25px rgb(40, 246, 68);
+  box-shadow: 0 0 25px rgb(40, 246, 68, 0.5);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -607,7 +607,7 @@ footer .text span a:hover {
   text-align: center;
   border-radius: 50px;
   padding: 30px 10px;
-  box-shadow: 0 0 30px rgb(0, 68, 255);
+  box-shadow: 0 0 30px rgb(0, 68, 255, 0.5);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -677,7 +677,7 @@ footer .text span a:hover {
   text-align: center;
   border-radius: 50px;
   padding: 30px 10px;
-  box-shadow: 0 0 25px rgb(128, 0, 128);
+  box-shadow: 0 0 25px rgb(128, 0, 128, 0.5);
   cursor: default;
   transition: all 0.4s ease;
 }
@@ -929,7 +929,7 @@ footer .text span a:hover {
     text-align: center;
     border-radius: 50px;
     padding: 30px 10px;
-    box-shadow: 0 0 30px rgb(30, 214, 247);
+    box-shadow: 0 0 30px rgb(30, 214, 247, 0.5);
     cursor: default;
     transition: all 0.4s ease;
   }
@@ -945,120 +945,121 @@ footer .text span a:hover {
     background: rgb(135, 206, 250);
     justify-content: center;
   }
-}
-
-.cert .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 100px;
-  min-height: 20vh;
-
-}
-
-.cert .boxes .box {
-  min-height: 30vh;
-  margin-top: 20px;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
-  width: 95%;
-  text-align: justify;
-  border-radius: 50px;
-  padding: 30px 10px;
-  box-shadow: 0 0 30px rgb(147, 51, 234);
-  cursor: default;
-  transition: all 0.4s ease;
-}
-
-.cert .boxes .box i {
-  height: 2px;
-  width: 2px;
-}
-
-.cert .boxes .box a {
-  margin-left: 15px;
-  font-size: 12px;
-}
-
-.cert .boxes .box small {
-  font-size: 12px;
-}
-
-.projects .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-.projects .boxes .box {
-  margin-left: 10px;
-  width: 95%;
-  text-align: center;
-  border-radius: 50px;
-  padding: 30px 10px;
-  box-shadow: 0 0 25px rgb(40, 246, 68);
-  cursor: default;
-  transition: all 0.4s ease;
-}
 
 
-.projects .boxes .topic {
-  font-size: 20px;
-}
+  .cert .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    min-height: 20vh;
+
+  }
+
+  .cert .boxes .box {
+    min-height: 30vh;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    width: 95%;
+    text-align: justify;
+    border-radius: 50px;
+    padding: 30px 10px;
+    box-shadow: 0 0 30px rgb(147, 51, 234, 0.5);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+
+  .cert .boxes .box i {
+    height: 2px;
+    width: 2px;
+  }
+
+  .cert .boxes .box a {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+
+  .cert .boxes .box small {
+    font-size: 12px;
+  }
+
+  .projects .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .projects .boxes .box {
+    margin-left: 10px;
+    width: 95%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px 10px;
+    box-shadow: 0 0 25px rgb(40, 246, 68, 0.5);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
 
 
-.exp .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .projects .boxes .topic {
+    font-size: 20px;
+  }
 
-}
 
-.exp .boxes .box {
-  margin-left: 10px;
-  width: 95%;
-  text-align: center;
-  border-radius: 50px;
-  padding: 30px 10px;
-  box-shadow: 0 0 30px rgb(0, 68, 255, 0.5);
-  cursor: default;
-  transition: all 0.4s ease;
-}
+  .exp .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-.exp .boxes .box li {
-  font-size: 12px;
-}
+  }
 
-.ach .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .exp .boxes .box {
+    margin-left: 10px;
+    width: 95%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px 10px;
+    box-shadow: 0 0 30px rgb(0, 68, 255, 0.5);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
 
-}
+  .exp .boxes .box li {
+    font-size: 12px;
+  }
 
-.ach .boxes .box {
-  margin-left: 10px;
-  width: 95%;
-  text-align: center;
-  border-radius: 50px;
-  padding: 30px 10px;
-  box-shadow: 0 0 25px rgb(128, 0, 128);
-  cursor: default;
-  transition: all 0.4s ease;
-}
+  .ach .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
-.ach .boxes h5 {
-  font-size: 15px;
+  }
 
-}
+  .ach .boxes .box {
+    margin-left: 10px;
+    width: 95%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px 10px;
+    box-shadow: 0 0 25px rgba(182, 0, 182, 0.5);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
 
-.fa-times:before {
-  content: "\f00e";
-  margin-right: 30px;
-}
+  .ach .boxes h5 {
+    font-size: 15px;
 
-.fa-bars:after {
-  display: none;
+  }
+
+  .fa-times:before {
+    content: "\f00e";
+    margin-right: 30px;
+  }
+
+  .fa-bars:after {
+    display: none;
+  }
 }
