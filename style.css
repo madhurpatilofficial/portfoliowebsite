@@ -480,135 +480,6 @@ footer .text span a:hover {
   display: none;
 }
 
-/* Responsive Media Query */
-@media (max-width: 1190px) {
-  section .content {
-    width: 85%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .about .about-details {
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .about .about-details .left {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .about-details .right {
-    width: 90%;
-    margin: 40px 0;
-  }
-
-  .services .boxes .box {
-    margin: 20px 0;
-    width: calc(100% / 2 - 20px);
-  }
-}
-
-@media (max-width: 900px) {
-  .about .left img {
-    height: 400px;
-    width: 400px;
-  }
-}
-
-@media (max-width: 750px) {
-  nav .navbar {
-    width: 90%;
-  }
-
-  nav .navbar .menu {
-    position: fixed;
-    left: -100%;
-    top: 0;
-    background: #0E2431;
-    height: 100vh;
-    max-width: 400px;
-    width: 100%;
-    padding-top: 60px;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.5s ease;
-  }
-
-  .navbar.active .menu {
-    left: 0;
-  }
-
-  nav .navbar .menu a {
-    font-size: 23px;
-    display: block;
-    color: #fff;
-    margin: 10px 0;
-  }
-
-  nav.sticky .menu a:hover {
-    color: #70a0a3;
-  }
-
-  nav .navbar .media-icons {
-    display: none;
-  }
-
-  nav .menu-btn,
-  .navbar .menu .cancel-btn {
-    display: block;
-  }
-
-  .home .text-two {
-    font-size: 65px;
-  }
-
-  .home .text-three {
-    font-size: 35px;
-  }
-
-  .skills .skills-details {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .skills-details .text {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .skills-details .boxes {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .services .boxes .box {
-    margin: 20px 0;
-    width: 100%;
-  }
-
-  .contact .text {
-    width: 100%;
-  }
-}
-
-@media (max-width: 800px) {
-  .home .text-two {
-    font-size: 60px;
-  }
-
-  .home .text-three {
-    font-size: 33px;
-  }
-
-  .skills-details .boxes .per {
-    font-size: 50px;
-    color: #4070f4;
-  }
-}
 
 .cert .boxes {
   display: flex;
@@ -861,4 +732,333 @@ footer .text span a:hover {
 .box .two li {
   list-style-type: none;
   position: relative;
+}
+
+/* Responsive Media Query */
+@media (max-width: 1190px) {
+  section .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about .about-details {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about .about-details .left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .about-details .right {
+    width: 90%;
+    margin: 40px 0;
+  }
+
+  .services .boxes .box {
+    margin: 20px 0;
+    width: calc(100% / 2 - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .about .left img {
+    height: 400px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 750px) {
+  nav .navbar {
+    width: 90%;
+  }
+
+  nav .navbar .menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #0E2431;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .navbar.active .menu {
+    left: 0;
+  }
+
+  nav .navbar .menu a {
+    font-size: 23px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+
+  nav.sticky .menu a:hover {
+    color: #70a0a3;
+  }
+
+  nav .navbar .media-icons {
+    display: none;
+  }
+
+  nav .menu-btn,
+  .navbar .menu .cancel-btn {
+    display: block;
+  }
+
+  .home .text-two {
+    font-size: 65px;
+  }
+
+  .home .text-three {
+    font-size: 35px;
+  }
+
+  .skills .skills-details {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .skills-details .text {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .skills-details .boxes {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .services .boxes .box {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .contact .text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .home .text-two {
+    font-size: 60px;
+  }
+
+  .home .text-three {
+    font-size: 33px;
+  }
+
+  .skills-details .boxes .per {
+    font-size: 50px;
+    color: #4070f4;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .boxs {
+    margin-top: 0;
+    width: 40%;
+  }
+
+  .tech {
+    font-size: 15px;
+  }
+
+  .ml {
+    font-size: 11px;
+  }
+
+  .latex {
+    height: 70px;
+    width: 70px;
+  }
+
+  .home .home-content {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home .text-one {
+    font-size: 20px;
+    color: #0E2431;
+  }
+
+  .home .text-two {
+    color: #0E2431;
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -3px;
+  }
+
+  .home .text-three {
+    font-size: 30px;
+    margin: 5px 0;
+    color: #4070f4;
+  }
+
+  .home .text-four {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #0E2431;
+  }
+
+  .services .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .services .boxes .box {
+    margin-left: 10px;
+    width: 95%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 30px 10px;
+    box-shadow: 0 0 30px rgb(30, 214, 247);
+    cursor: default;
+    transition: all 0.4s ease;
+  }
+
+  .newboxs {
+    height: 55px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #000000;
+    background: rgb(135, 206, 250);
+    justify-content: center;
+  }
+}
+
+.cert .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+  min-height: 20vh;
+
+}
+
+.cert .boxes .box {
+  min-height: 30vh;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  width: 95%;
+  text-align: justify;
+  border-radius: 50px;
+  padding: 30px 10px;
+  box-shadow: 0 0 30px rgb(147, 51, 234);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.cert .boxes .box i {
+  height: 2px;
+  width: 2px;
+}
+
+.cert .boxes .box a {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.cert .boxes .box small {
+  font-size: 12px;
+}
+
+.projects .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.projects .boxes .box {
+  margin-left: 10px;
+  width: 95%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 30px 10px;
+  box-shadow: 0 0 25px rgb(40, 246, 68);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+
+.projects .boxes .topic {
+  font-size: 20px;
+}
+
+
+.exp .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.exp .boxes .box {
+  margin-left: 10px;
+  width: 95%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 30px 10px;
+  box-shadow: 0 0 30px rgb(0, 68, 255, 0.5);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.exp .boxes .box li {
+  font-size: 12px;
+}
+
+.ach .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.ach .boxes .box {
+  margin-left: 10px;
+  width: 95%;
+  text-align: center;
+  border-radius: 50px;
+  padding: 30px 10px;
+  box-shadow: 0 0 25px rgb(128, 0, 128);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.ach .boxes h5 {
+  font-size: 15px;
+
+}
+
+.fa-times:before {
+  content: "\f00e";
+  margin-right: 30px;
+}
+
+.fa-bars:after {
+  display: none;
 }
