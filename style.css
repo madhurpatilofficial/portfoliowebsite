@@ -764,6 +764,14 @@ footer .text span a:hover {
   }
 }
 
+@media (max-width: 522px) {
+
+  .boxeskills{
+      width: 104%;
+  }
+}
+
+
 @media (max-width: 900px) {
   .about .left img {
     height: 400px;
