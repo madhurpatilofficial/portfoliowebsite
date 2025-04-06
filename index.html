@@ -52,59 +52,173 @@
     <a href="" id="menu-open-close"></a>
   </nav>
 
-  <!-- Home Section Start -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <div class="text">
-        <div class="text-one">Hello,</div>
-        <div class="text-two">I'm Madhur Patil <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-            fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-            <path
-              d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
-          </svg></div>
-        <div class="text-three">Computer Engineer</div>
-        <div class="text-four">From Pune, India</div>
+  <section class="hero" id="home">
+    <!-- Background Elements -->
+    <div class="hero-bg">
+      <div class="bg-gradient"></div>
+      <div class="bg-grid"></div>
+      <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+      </div>
+    </div>
+
+    <div class="hero-container">
+      <!-- Left Content Section -->
+      <div class="hero-content">
+        <div class="hero-header">
+          <div class="greeting">Hello, I'm</div>
+          <h1 class="name">
+            Madhur <span class="name-gradient">Patil</span>
+          </h1>
+        </div>
+
+        <div class="role-container">
+          <div class="role-slider">
+            <div class="role">Computer Engineer</div>
+            <div class="role">Full-Stack Developer</div>
+            <div class="role">UI/UX Enthusiast</div>
+            <div class="role">Resume Specialist</div>
+          </div>
+        </div>
+
+        <p class="bio">
+          I craft exceptional digital experiences through innovative solutions that bridge creativity and technology.
+        </p>
+
+        <div class="stats-container">
+          <div class="stat">
+            <span class="stat-number">2+</span>
+            <span class="stat-label">Years<br>Experience</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects<br>Completed</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Happy<br>Clients</span>
+          </div>
+        </div>
+
+        <div class="cta-container">
+          <a href="https://www.linkedin.com/in/madhurpatilofficial/" class="cta-button primary">
+            <span>Let's Connect</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </a>
+          <a href="#projects" class="cta-button primary">
+            <span>View My Work</span>
+          </a>
+        </div>
+
+        <div class="location-social">
+          <div class="location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            Pune, India
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Image/Illustration Section -->
+      <div class="hero-graphic">
+        <div class="graphic-container">
+          <div class="graphic-decoration graphic-circle-1"></div>
+          <div class="graphic-decoration graphic-circle-2"></div>
+          <div class="graphic-decoration graphic-dots"></div>
+          <div class="graphic-main">
+            <!-- Your profile photo or illustration will go here -->
+            <div class="profile-outline"></div>
+          </div>
+          <div class="tech-badges">
+
+            <div class="tech-badge ui">UI/UX</div>
+            <div class="tech-badge java">Java</div>
+            <div class="tech-badge sp">SpringBoot</div>
+            <div class="tech-badge ng">Angular</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- About Section Start -->
-  <section class="about" id="about">
-    <div class="content">
-      <div class="title"><span>About Me <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20"
-            fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
-            <path
-              d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
-            <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-          </svg></span></div>
-      <div class="about-details">
-        <div class="left">
-          <img src="Images\profile.jpg" width="200px" height="40px">
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+          </span>
+          About Me
+        </h2>
+        <p class="section-subtitle">Professional Profile & Personal Journey</p>
+      </div>
 
-        </div>
-        <div class="right"><br>
-          <div class="topic">Software Engineer</div>
-          🚀Computer Engineer with a solid foundation in business analysis, proficient in Java, Angular, TypeScript,
-          Python, SQL, Business Analytics, and a growing specialization in DevOps technologies like Nginx and Jenkins. I
-          have hands-on experience in the BFSI industry, where I have developed strong domain knowledge.
-          <br><br>
-          🎯Demonstrated history of delivering impactful results through contributions to both individual and
-          collaborative projects, positioning me as a valuable asset to dynamic IT and software companies.
-          <br><br>
-
-          🔍Strong communicator and team player, adept at fostering collaboration and excelling in diverse
-          organizational environments.
-          <br><br>
-
-          💡Adaptable and result driven, I embrace challenges with enthusiasm and prioritize continuous skill
-          development, leveraging advanced technological expertise to drive industry impact.
-          <br>
-          <div class="button">
-            <a class="view-certificate-btn" href="https://drive.google.com/file/d/1ZrCjRgRi1I4f_wY35hTJkvzmy80r3HY4/view?usp=sharing" target=none>
-              Download
-              <i class="fas fa-external-link-alt"></i>
-            </a>
+      <div class="profile-container">
+        <div class="profile-image-container">
+          <div class="profile-image-wrapper">
+            <img src="Images/profile.jpg" alt="Profile Photo" class="profile-image">
+            <div class="image-border-effect"></div>
           </div>
+          <h3 class="profile-title">Software Engineer</h3>
+        </div>
+
+        <div class="profile-content">
+
+
+          <div class="profile-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">🚀</div>
+              <div class="highlight-content">
+                <p>Computer Engineer with a solid foundation in business analysis, proficient in Java, Angular,
+                  TypeScript, Python, SQL, Business Analytics, and a growing specialization in DevOps technologies like
+                  Nginx and Jenkins. I have hands-on experience in the BFSI industry with strong domain knowledge.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">🎯</div>
+              <div class="highlight-content">
+                <p>Demonstrated history of delivering impactful results through contributions to both individual and
+                  collaborative projects, positioning me as a valuable asset to dynamic IT and software companies.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">🔍</div>
+              <div class="highlight-content">
+                <p>Strong communicator and team player, adept at fostering collaboration and excelling in diverse
+                  organizational environments.</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">💡</div>
+              <div class="highlight-content">
+                <p>Adaptable and result driven, I embrace challenges with enthusiasm and prioritize continuous skill
+                  development, leveraging advanced technological expertise to drive industry impact.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://drive.google.com/file/d/1ZrCjRgRi1I4f_wY35hTJkvzmy80r3HY4/view?usp=sharing" target="_blank"
+            class="download-btn">
+            Download Resume
+            <i class="fas fa-external-link-alt"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -112,7 +226,18 @@
 
   <section class="skills" id="skills">
     <div class="content">
-      <div class="title"><span>My Skills</span></div><br>
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
+            </svg>
+          </span>
+          Skills
+        </h2>
+        <div class="section-subtitle">My technical competencies and proficiencies</div>
+      </div>
       <div class="skills-details">
         <div class="text">
         </div>
@@ -314,48 +439,74 @@
 
 
           <div class="boxs">
-            <div class="topic" style="font-size: 20px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 -9.5 256 256" version="1.1" preserveAspectRatio="xMidYMid">
-              <g>
-                <path d="M74.8392681,106.892926 L33.9714147,121.763314 C34.4958336,128.315376 35.6233978,134.787442 37.211892,141.128721 L76.0290516,126.992265 C74.7846677,120.440203 74.3402448,113.672278 74.8481566,106.891656" fill="#DA2430">
-            
-            </path>
-                <path d="M255.444071,61.7023618 C252.593416,55.8232827 249.297068,50.1410194 245.477572,44.7863591 L204.621146,59.656747 C209.37647,64.5200025 213.363578,69.9864033 216.628181,75.8324681 L255.445341,61.6998222 L255.444071,61.7023618 L255.444071,61.7023618 Z" fill="#DA2430">
-            
-            </path>
+            <div class="topic" style="font-size: 20px;"><svg xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="40px" viewBox="0 -9.5 256 256"
+                version="1.1" preserveAspectRatio="xMidYMid">
                 <g>
-                  <path d="M182.950275,61.4614413 C177.809695,57.0005792 172.004032,53.1510662 165.54165,50.1365752 L165.53911,50.1365752 C127.598099,32.4485466 82.3304594,48.904889 64.6424308,86.8585985 C63.6454901,89.0001513 62.7625611,91.1647155 61.9886006,93.3462151 C59.7809164,99.7692657 58.4912936,106.33609 57.9978533,112.89241 L57.8539295,112.9456 C57.8501633,112.993635 57.8464406,113.04167 57.8427616,113.089704 L33.2472215,122.039512 L17.4207366,127.888513 C17.418462,127.859314 17.416198,127.830115 17.4139447,127.800914 L16.9799873,127.958822 C15.443554,108.523577 18.7195851,88.4470927 27.5331247,69.5476944 C28.6870135,67.0724846 29.9171924,64.6566205 31.2195686,62.3015921 C60.2738161,8.1856616 126.383568,-14.4341613 182.138317,11.9725342 C193.678037,17.4404824 203.911047,24.6094357 212.694536,33.045511 C218.60401,38.5121214 223.878405,44.5334969 228.475731,50.9860576 L187.616767,65.858985 C187.406509,65.6440827 187.194925,65.4302535 186.982018,65.2175172 L186.868906,65.2593348 C185.610426,63.9523602 184.30416,62.6849771 182.950275,61.4614413 Z" fill="#DA2430">
-            
-            </path>
-                  <path d="M19.2613217,193.896477 L19.1968952,193.91993 C10.6957214,181.949719 4.50808591,168.501485 0.938735714,154.347253 L39.7635139,140.206988 L39.7660535,140.209528 C39.7740514,140.251306 39.7820838,140.293077 39.7901508,140.334841 L40.04226,140.241601 L40.0481026,140.257181 C42.0422662,150.817822 46.1933636,160.892394 52.2458245,169.750695 C54.5535333,173.043912 57.1321413,176.165653 59.9682455,179.077478 L59.8140535,179.133611 C59.9116663,179.236598 60.0095901,179.33933 60.1078243,179.441803 L19.6202948,194.412587 C19.500171,194.240851 19.380513,194.068813 19.2613217,193.896477 Z" fill="#E82429">
-            
-            </path>
-                  <path d="M173.465486,183.446858 C152.413934,196.46429 125.412387,198.979252 101.351883,187.758961 C92.8405513,183.78963 85.425039,178.421002 79.2335941,172.064486 L38.4622439,186.908208 C38.5659908,187.054117 38.6700845,187.199805 38.7745245,187.345272 L38.754348,187.352733 C49.9644215,203.36935 65.2565512,216.75678 84.0211549,225.651222 C124.490455,244.814382 170.407927,238.152298 203.655476,212.3668 C218.543486,201.215294 230.971995,186.351361 239.368027,168.347841 C248.186646,149.452252 251.443631,129.383387 249.883072,109.963379 L248.747464,110.376585 C248.73211,110.168574 248.716217,109.960636 248.699785,109.752771 L208.210308,124.709923 L208.212255,124.713818 C207.567618,133.637473 205.349363,142.590341 201.405583,151.173176 C195.091199,164.926539 185.242012,175.882135 173.465486,183.446858 Z" fill="#DA2430">
-            
-            </path>
-                  <path d="M218.552379,75.1291912 L219.159486,74.9081957 L219.159486,74.9069259 C225.546477,88.0491438 229.444701,102.334163 230.612897,116.962023 L189.840277,131.795587 C189.847816,131.694429 189.855149,131.593274 189.862274,131.492123 L189.091251,131.776983 C190.201352,116.689345 186.816517,101.683505 179.657339,88.6544234 L218.205113,74.4042308 L218.20706,74.4003358 C218.32299,74.6428972 218.438097,74.8858507 218.552379,75.1291912 Z" fill="#E82429">
-            
-            </path>
+                  <path
+                    d="M74.8392681,106.892926 L33.9714147,121.763314 C34.4958336,128.315376 35.6233978,134.787442 37.211892,141.128721 L76.0290516,126.992265 C74.7846677,120.440203 74.3402448,113.672278 74.8481566,106.891656"
+                    fill="#DA2430">
+
+                  </path>
+                  <path
+                    d="M255.444071,61.7023618 C252.593416,55.8232827 249.297068,50.1410194 245.477572,44.7863591 L204.621146,59.656747 C209.37647,64.5200025 213.363578,69.9864033 216.628181,75.8324681 L255.445341,61.6998222 L255.444071,61.7023618 L255.444071,61.7023618 Z"
+                    fill="#DA2430">
+
+                  </path>
+                  <g>
+                    <path
+                      d="M182.950275,61.4614413 C177.809695,57.0005792 172.004032,53.1510662 165.54165,50.1365752 L165.53911,50.1365752 C127.598099,32.4485466 82.3304594,48.904889 64.6424308,86.8585985 C63.6454901,89.0001513 62.7625611,91.1647155 61.9886006,93.3462151 C59.7809164,99.7692657 58.4912936,106.33609 57.9978533,112.89241 L57.8539295,112.9456 C57.8501633,112.993635 57.8464406,113.04167 57.8427616,113.089704 L33.2472215,122.039512 L17.4207366,127.888513 C17.418462,127.859314 17.416198,127.830115 17.4139447,127.800914 L16.9799873,127.958822 C15.443554,108.523577 18.7195851,88.4470927 27.5331247,69.5476944 C28.6870135,67.0724846 29.9171924,64.6566205 31.2195686,62.3015921 C60.2738161,8.1856616 126.383568,-14.4341613 182.138317,11.9725342 C193.678037,17.4404824 203.911047,24.6094357 212.694536,33.045511 C218.60401,38.5121214 223.878405,44.5334969 228.475731,50.9860576 L187.616767,65.858985 C187.406509,65.6440827 187.194925,65.4302535 186.982018,65.2175172 L186.868906,65.2593348 C185.610426,63.9523602 184.30416,62.6849771 182.950275,61.4614413 Z"
+                      fill="#DA2430">
+
+                    </path>
+                    <path
+                      d="M19.2613217,193.896477 L19.1968952,193.91993 C10.6957214,181.949719 4.50808591,168.501485 0.938735714,154.347253 L39.7635139,140.206988 L39.7660535,140.209528 C39.7740514,140.251306 39.7820838,140.293077 39.7901508,140.334841 L40.04226,140.241601 L40.0481026,140.257181 C42.0422662,150.817822 46.1933636,160.892394 52.2458245,169.750695 C54.5535333,173.043912 57.1321413,176.165653 59.9682455,179.077478 L59.8140535,179.133611 C59.9116663,179.236598 60.0095901,179.33933 60.1078243,179.441803 L19.6202948,194.412587 C19.500171,194.240851 19.380513,194.068813 19.2613217,193.896477 Z"
+                      fill="#E82429">
+
+                    </path>
+                    <path
+                      d="M173.465486,183.446858 C152.413934,196.46429 125.412387,198.979252 101.351883,187.758961 C92.8405513,183.78963 85.425039,178.421002 79.2335941,172.064486 L38.4622439,186.908208 C38.5659908,187.054117 38.6700845,187.199805 38.7745245,187.345272 L38.754348,187.352733 C49.9644215,203.36935 65.2565512,216.75678 84.0211549,225.651222 C124.490455,244.814382 170.407927,238.152298 203.655476,212.3668 C218.543486,201.215294 230.971995,186.351361 239.368027,168.347841 C248.186646,149.452252 251.443631,129.383387 249.883072,109.963379 L248.747464,110.376585 C248.73211,110.168574 248.716217,109.960636 248.699785,109.752771 L208.210308,124.709923 L208.212255,124.713818 C207.567618,133.637473 205.349363,142.590341 201.405583,151.173176 C195.091199,164.926539 185.242012,175.882135 173.465486,183.446858 Z"
+                      fill="#DA2430">
+
+                    </path>
+                    <path
+                      d="M218.552379,75.1291912 L219.159486,74.9081957 L219.159486,74.9069259 C225.546477,88.0491438 229.444701,102.334163 230.612897,116.962023 L189.840277,131.795587 C189.847816,131.694429 189.855149,131.593274 189.862274,131.492123 L189.091251,131.776983 C190.201352,116.689345 186.816517,101.683505 179.657339,88.6544234 L218.205113,74.4042308 L218.20706,74.4003358 C218.32299,74.6428972 218.438097,74.8858507 218.552379,75.1291912 Z"
+                      fill="#E82429">
+
+                    </path>
+                  </g>
+                  <path
+                    d="M74.8906707,106.654031 L34.309659,121.650133 C34.8296537,128.260104 35.9494925,134.786331 37.5289522,141.182071 L76.0747786,126.924088 C74.8283493,120.302432 74.3804137,113.486022 74.9062511,106.650136"
+                    fill="#C22035">
+
+                  </path>
+                  <path
+                    d="M254.22692,61.0828228 C251.397136,55.1544934 248.121364,49.4248137 244.329492,44.0242691 L203.758218,59.0203718 C208.479069,63.9262397 212.43843,69.4377942 215.679146,75.334963 L254.221077,61.0789277 L254.22692,61.0828228 L254.22692,61.0828228 Z"
+                    fill="#C22035">
+
+                  </path>
+                  <path
+                    d="M34.3084904,121.652665 L74.7901774,106.824052 L74.624636,114.957003 L35.5685526,129.705767 L34.3026478,121.642928 L34.3084904,121.652665 L34.3084904,121.652665 Z"
+                    fill="#AC223B">
+
+                  </path>
+                  <path
+                    d="M203.766009,58.8974817 L244.8787,44.7894599 L249.151615,51.2377841 L209.205504,65.3594386 L203.771851,58.8935866 L203.766009,58.8974817 L203.766009,58.8974817 Z"
+                    fill="#AC223B">
+
+                  </path>
+                  <path
+                    d="M38.7638909,187.20102 L79.2942665,172.452256 L91.5521198,184.016782 L49.0488803,199.973025 L38.7658385,187.197125 L38.7638909,187.20102 L38.7638909,187.20102 Z"
+                    fill="#B92135">
+
+                  </path>
+                  <path
+                    d="M249.380647,109.861639 L208.215371,124.705833 L205.183043,141.184018 L249.074882,125.54133 L249.38649,109.863587 L249.380647,109.861639 L249.380647,109.861639 Z"
+                    fill="#B92135">
+
+                  </path>
                 </g>
-                <path d="M74.8906707,106.654031 L34.309659,121.650133 C34.8296537,128.260104 35.9494925,134.786331 37.5289522,141.182071 L76.0747786,126.924088 C74.8283493,120.302432 74.3804137,113.486022 74.9062511,106.650136" fill="#C22035">
-            
-            </path>
-                <path d="M254.22692,61.0828228 C251.397136,55.1544934 248.121364,49.4248137 244.329492,44.0242691 L203.758218,59.0203718 C208.479069,63.9262397 212.43843,69.4377942 215.679146,75.334963 L254.221077,61.0789277 L254.22692,61.0828228 L254.22692,61.0828228 Z" fill="#C22035">
-            
-            </path>
-                <path d="M34.3084904,121.652665 L74.7901774,106.824052 L74.624636,114.957003 L35.5685526,129.705767 L34.3026478,121.642928 L34.3084904,121.652665 L34.3084904,121.652665 Z" fill="#AC223B">
-            
-            </path>
-                <path d="M203.766009,58.8974817 L244.8787,44.7894599 L249.151615,51.2377841 L209.205504,65.3594386 L203.771851,58.8935866 L203.766009,58.8974817 L203.766009,58.8974817 Z" fill="#AC223B">
-            
-            </path>
-                <path d="M38.7638909,187.20102 L79.2942665,172.452256 L91.5521198,184.016782 L49.0488803,199.973025 L38.7658385,187.197125 L38.7638909,187.20102 L38.7638909,187.20102 Z" fill="#B92135">
-            
-            </path>
-                <path d="M249.380647,109.861639 L208.215371,124.705833 L205.183043,141.184018 L249.074882,125.54133 L249.38649,109.863587 L249.380647,109.861639 L249.380647,109.861639 Z" fill="#B92135">
-            
-            </path>
-              </g>
-            </svg>
+              </svg>
               <br><span class="tech">OpenShift</span>
             </div>
           </div>
@@ -660,22 +811,25 @@
         <h2 class="section-title">
           <span class="title-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+              <path
+                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
             </svg>
           </span>
           Education
         </h2>
         <div class="section-subtitle">My academic journey and qualifications</div>
       </div>
-  
+
       <div class="education-timeline">
         <!-- Degree 1 -->
         <div class="education-card">
           <div class="education-header">
             <div class="degree-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
-                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
               </svg>
             </div>
             <div class="degree-info">
@@ -686,10 +840,13 @@
                 <span class="gpa">CGPA: 9.22/10</span>
               </div>
             </div>
-            <a href="PDFs/ProvisionalDegreeCertificate.pdf" class="certificate-link" target="_blank" title="View Certificate">
+            <a href="PDFs/ProvisionalDegreeCertificate.pdf" class="certificate-link" target="_blank"
+              title="View Certificate">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                <path
+                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                <path
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
               </svg>
             </a>
           </div>
@@ -705,14 +862,16 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Degree 2 -->
         <div class="education-card">
           <div class="education-header">
             <div class="degree-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
-                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
               </svg>
             </div>
             <div class="degree-info">
@@ -735,14 +894,16 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Degree 3 -->
         <div class="education-card">
           <div class="education-header">
             <div class="degree-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
-                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z" />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z" />
               </svg>
             </div>
             <div class="degree-info">
@@ -757,9 +918,9 @@
             <div class="achievements">
               <h4>Key Highlights:</h4>
               <ul>
-                <li>School Topper in Computer Science</li>
-                <li>Active participant in science exhibitions</li>
-                <li>Member of school debate team</li>
+                <li>Highly involved in sports activities</li>
+                <li>Active participant in science exhibitions and competitions</li>
+                <li>Engaged in all extracurricular activities</li>
               </ul>
             </div>
           </div>
@@ -774,15 +935,17 @@
         <h2 class="section-title">
           <span class="title-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
-              <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
+              <path
+                d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z" />
+              <path
+                d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z" />
             </svg>
           </span>
           Certifications
         </h2>
         <div class="section-subtitle">Professional credentials validating my skills and expertise</div>
       </div>
-  
+
       <div class="certifications-grid">
         <!-- Certification 1 -->
         <div class="certification-card">
@@ -796,13 +959,14 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://certificates.simplicdn.net/share/7018110_1721827380.pdf" class="view-certificate" target="_blank">
+            <a href="https://certificates.simplicdn.net/share/7018110_1721827380.pdf" class="view-certificate"
+              target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Certification 2 -->
         <div class="certification-card">
           <div class="certification-header">
@@ -815,13 +979,14 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://certificates.simplicdn.net/share/5167788_1715187636.pdf" class="view-certificate" target="_blank">
+            <a href="https://certificates.simplicdn.net/share/5167788_1715187636.pdf" class="view-certificate"
+              target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Certification 3 -->
         <div class="certification-card">
           <div class="certification-header">
@@ -834,14 +999,15 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://certificates.simplicdn.net/share/5116765_1714922598.pdf" class="view-certificate" target="_blank">
+            <a href="https://certificates.simplicdn.net/share/5116765_1714922598.pdf" class="view-certificate"
+              target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
             <div class="certification-date">Issued: 2023</div>
           </div>
         </div>
-  
+
         <!-- Certification 4 -->
         <div class="certification-card">
           <div class="certification-header">
@@ -854,13 +1020,14 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://www.linkedin.com/learning/certificates/af5b2ec5d96677381c71598069c68966079d7cea7f513e1b7c53be6c090d176f" class="view-certificate" target="_blank">
+            <a href="https://www.linkedin.com/learning/certificates/af5b2ec5d96677381c71598069c68966079d7cea7f513e1b7c53be6c090d176f"
+              class="view-certificate" target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Certification 5 -->
         <div class="certification-card">
           <div class="certification-header">
@@ -873,13 +1040,14 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://www.linkedin.com/learning/certificates/cc9a4a1fd3d8fd8c57b57f0b7e5ee88c91a27d31274d0b19f9f8b22879253080" class="view-certificate" target="_blank">
+            <a href="https://www.linkedin.com/learning/certificates/cc9a4a1fd3d8fd8c57b57f0b7e5ee88c91a27d31274d0b19f9f8b22879253080"
+              class="view-certificate" target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Certification 6 -->
         <div class="certification-card">
           <div class="certification-header">
@@ -892,7 +1060,8 @@
             </div>
           </div>
           <div class="certification-footer">
-            <a href="https://www.linkedin.com/learning/certificates/26b31aec2f95e8271238a67a8d7cebd0e9a5dc9aae5dafbf796176b6f706829f" class="view-certificate" target="_blank">
+            <a href="https://www.linkedin.com/learning/certificates/26b31aec2f95e8271238a67a8d7cebd0e9a5dc9aae5dafbf796176b6f706829f"
+              class="view-certificate" target="_blank">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
@@ -909,15 +1078,17 @@
         <h2 class="section-title">
           <span class="title-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
-              <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
+              <path
+                d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z" />
+              <path
+                d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z" />
             </svg>
           </span>
           Projects
         </h2>
         <div class="section-subtitle">A showcase of my technical implementations and creative solutions</div>
       </div>
-  
+
       <div class="projects-grid">
         <!-- Project 1 -->
         <div class="project-card">
@@ -935,14 +1106,15 @@
               <span class="tech-tag">Angular</span>
               <span class="tech-tag">TypeScript</span>
             </div>
-            <p class="project-description">A comprehensive editing platform with advanced features for content creation and manipulation.</p>
+            <p class="project-description">A comprehensive editing platform with advanced features for content creation
+              and manipulation.</p>
             <a href="https://editor360.netlify.app/" class="project-button" target="_blank" rel="noopener noreferrer">
               View Project
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 2 -->
         <div class="project-card">
           <div class="project-image">
@@ -951,7 +1123,8 @@
           <div class="project-content">
             <div class="project-header">
               <h3 class="project-title">One Stop Tools</h3>
-              <a href="https://onestoptools.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://onestoptools.netlify.app/" class="project-link" target="_blank"
+                rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -959,14 +1132,16 @@
               <span class="tech-tag">Angular</span>
               <span class="tech-tag">TypeScript</span>
             </div>
-            <p class="project-description">A collection of essential web tools consolidated into a single convenient platform.</p>
-            <a href="https://onestoptools.netlify.app/" class="project-button" target="_blank" rel="noopener noreferrer">
-              View Project 
+            <p class="project-description">A collection of essential web tools consolidated into a single convenient
+              platform.</p>
+            <a href="https://onestoptools.netlify.app/" class="project-button" target="_blank"
+              rel="noopener noreferrer">
+              View Project
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 3 -->
         <div class="project-card">
           <div class="project-image">
@@ -975,7 +1150,8 @@
           <div class="project-content">
             <div class="project-header">
               <h3 class="project-title">Data Operations Software</h3>
-              <a href="https://dataoperations.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://dataoperations.netlify.app/" class="project-link" target="_blank"
+                rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -984,13 +1160,14 @@
               <span class="tech-tag">Java</span>
             </div>
             <p class="project-description">Software solution for managing and processing large datasets efficiently.</p>
-            <a href="https://dataoperations.netlify.app/" class="project-button" target="_blank" rel="noopener noreferrer">
+            <a href="https://dataoperations.netlify.app/" class="project-button" target="_blank"
+              rel="noopener noreferrer">
               View Project
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 4 -->
         <div class="project-card">
           <div class="project-image">
@@ -1005,9 +1182,11 @@
               <span class="tech-tag">Machine Learning</span>
               <span class="tech-tag">Security</span>
             </div>
-            <p class="project-description">Advanced identity verification system using biometric and behavioral analysis.</p>
+            <p class="project-description">Advanced identity verification system using biometric and behavioral
+              analysis.</p>
             <div class="project-buttons">
-              <a href="https://drive.google.com/file/d/1FyGYk4h1M1qDpu1ZfsRxSi7uqugtJFJP/view?usp=share_link" class="project-button secondary" target="_blank">
+              <a href="https://drive.google.com/file/d/1FyGYk4h1M1qDpu1ZfsRxSi7uqugtJFJP/view?usp=share_link"
+                class="project-button secondary" target="_blank">
                 Project Thesis
                 <i class="fas fa-external-link-alt"></i>
               </a>
@@ -1018,7 +1197,7 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Project 5 -->
         <div class="project-card">
           <div class="project-image">
@@ -1027,7 +1206,8 @@
           <div class="project-content">
             <div class="project-header">
               <h3 class="project-title">Text Analysis</h3>
-              <a href="https://madhurpatil.pythonanywhere.com/" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://madhurpatil.pythonanywhere.com/" class="project-link" target="_blank"
+                rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -1035,14 +1215,16 @@
               <span class="tech-tag">Python</span>
               <span class="tech-tag">NLP</span>
             </div>
-            <p class="project-description">Tool for analyzing and extracting insights from text content using natural language processing.</p>
-            <a href="https://madhurpatil.pythonanywhere.com/" class="project-button" target="_blank" rel="noopener noreferrer">
+            <p class="project-description">Tool for analyzing and extracting insights from text content using natural
+              language processing.</p>
+            <a href="https://madhurpatil.pythonanywhere.com/" class="project-button" target="_blank"
+              rel="noopener noreferrer">
               View Project
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 6 -->
         <div class="project-card">
           <div class="project-image">
@@ -1051,7 +1233,8 @@
           <div class="project-content">
             <div class="project-header">
               <h3 class="project-title">Vehicle Price Prediction</h3>
-              <a href="https://vehiclepriceprediction.pythonanywhere.com/" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://vehiclepriceprediction.pythonanywhere.com/" class="project-link" target="_blank"
+                rel="noopener noreferrer">
                 <i class="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -1059,14 +1242,16 @@
               <span class="tech-tag">Machine Learning</span>
               <span class="tech-tag">Python</span>
             </div>
-            <p class="project-description">ML model that predicts vehicle prices based on various features and market trends.</p>
-            <a href="https://vehiclepriceprediction.pythonanywhere.com/" class="project-button" target="_blank" rel="noopener noreferrer">
+            <p class="project-description">ML model that predicts vehicle prices based on various features and market
+              trends.</p>
+            <a href="https://vehiclepriceprediction.pythonanywhere.com/" class="project-button" target="_blank"
+              rel="noopener noreferrer">
               View Project
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 7 -->
         <div class="project-card">
           <div class="project-image">
@@ -1075,7 +1260,8 @@
           <div class="project-content">
             <div class="project-header">
               <h3 class="project-title">Social Distancing Detector</h3>
-              <a href="https://github.com/Madhur-451/Social-Distancing-Detector" class="project-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Madhur-451/Social-Distancing-Detector" class="project-link" target="_blank"
+                rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
               </a>
             </div>
@@ -1083,14 +1269,16 @@
               <span class="tech-tag">Computer Vision</span>
               <span class="tech-tag">OpenCV</span>
             </div>
-            <p class="project-description">AI system that monitors and ensures safe distancing between individuals in public spaces.</p>
-            <a href="https://github.com/Madhur-451/Social-Distancing-Detector" class="project-button" target="_blank" rel="noopener noreferrer">
+            <p class="project-description">AI system that monitors and ensures safe distancing between individuals in
+              public spaces.</p>
+            <a href="https://github.com/Madhur-451/Social-Distancing-Detector" class="project-button" target="_blank"
+              rel="noopener noreferrer">
               View on GitHub
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-  
+
         <!-- Project 8 -->
         <div class="project-card">
           <div class="project-image">
@@ -1104,8 +1292,9 @@
               <span class="tech-tag">Computer Vision</span>
               <span class="tech-tag">OpenCV</span>
             </div>
-            <p class="project-description">Real-time object detection system using advanced computer vision techniques.</p>
-            
+            <p class="project-description">Real-time object detection system using advanced computer vision techniques.
+            </p>
+
           </div>
         </div>
       </div>
@@ -1119,15 +1308,16 @@
         <h2 class="section-title">
           <span class="title-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-              <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
+              <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+              <path
+                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
             </svg>
           </span>
           Professional Experience
         </h2>
         <div class="section-subtitle">My career journey and key accomplishments</div>
       </div>
-  
+
       <div class="timeline">
         <!-- Experience 1 -->
         <div class="timeline-item">
@@ -1135,7 +1325,8 @@
             <div class="timeline-company">
               <div class="company-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                 </svg>
               </div>
               <div class="company-info">
@@ -1150,19 +1341,26 @@
             <ul class="achievements-list">
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Developed interactive web solutions using <span class="highlight">Java</span> and <span class="highlight">Angular</span>, achieving <span class="highlight">50%</span> increase in user activity and <span class="highlight">20%</span> decrease in server response times.</span>
+                <span>Developed interactive web solutions using <span class="highlight">Java</span> and <span
+                    class="highlight">Angular</span>, achieving <span class="highlight">50%</span> increase in user
+                  activity and <span class="highlight">20%</span> decrease in server response times.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Designed secure API solutions with focus on authentication/authorization, optimizing performance and security across multiple endpoints.</span>
+                <span>Designed secure API solutions with focus on authentication/authorization, optimizing performance
+                  and security across multiple endpoints.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Integrated <span class="highlight">Nginx</span>, <span class="highlight">Jenkins</span>, and <span class="highlight">Splunk</span> into CI/CD pipeline, improving deployment scalability by <span class="highlight">30%</span> and reducing release times by <span class="highlight">40%</span>.</span>
+                <span>Integrated <span class="highlight">Nginx</span>, <span class="highlight">Jenkins</span>, and <span
+                    class="highlight">Splunk</span> into CI/CD pipeline, improving deployment scalability by <span
+                    class="highlight">30%</span> and reducing release times by <span
+                    class="highlight">40%</span>.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Led Agile design sprints using <span class="highlight">Figma</span> and Confluence, resulting in <span class="highlight">25%</span> faster project delivery.</span>
+                <span>Led Agile design sprints using <span class="highlight">Figma</span> and Confluence, resulting in
+                  <span class="highlight">25%</span> faster project delivery.</span>
               </li>
             </ul>
             <div class="skills-used">
@@ -1174,14 +1372,15 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Experience 2 -->
         <div class="timeline-item">
           <div class="timeline-header">
             <div class="timeline-company">
               <div class="company-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                 </svg>
               </div>
               <div class="company-info">
@@ -1196,11 +1395,13 @@
             <ul class="achievements-list">
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Managed AWS services including <span class="highlight">EC2</span>, <span class="highlight">SageMaker</span>, and <span class="highlight">S3</span> storage solutions.</span>
+                <span>Managed AWS services including <span class="highlight">EC2</span>, <span
+                    class="highlight">SageMaker</span>, and <span class="highlight">S3</span> storage solutions.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Collaborated with AWS engineers to gain in-depth knowledge of services and troubleshooting techniques.</span>
+                <span>Collaborated with AWS engineers to gain in-depth knowledge of services and troubleshooting
+                  techniques.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
@@ -1219,14 +1420,15 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Experience 3 -->
         <div class="timeline-item">
           <div class="timeline-header">
             <div class="timeline-company">
               <div class="company-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                 </svg>
               </div>
               <div class="company-info">
@@ -1241,11 +1443,14 @@
             <ul class="achievements-list">
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Designed data model for heart disease analysis using <span class="highlight">Python</span>, revealing <span class="highlight">45.87%</span> prevalence with higher occurrence in males and older populations.</span>
+                <span>Designed data model for heart disease analysis using <span class="highlight">Python</span>,
+                  revealing <span class="highlight">45.87%</span> prevalence with higher occurrence in males and older
+                  populations.</span>
               </li>
               <li>
                 <span class="achievement-icon">✓</span>
-                <span>Created interactive dashboard using <span class="highlight">Power BI</span> with 7 data models and 4 filter options for enhanced UX.</span>
+                <span>Created interactive dashboard using <span class="highlight">Power BI</span> with 7 data models and
+                  4 filter options for enhanced UX.</span>
               </li>
             </ul>
             <div class="skills-used">
@@ -1256,14 +1461,15 @@
             </div>
           </div>
         </div>
-  
+
         <!-- Experience 4 -->
         <div class="timeline-item">
           <div class="timeline-header">
             <div class="timeline-company">
               <div class="company-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                  <path
+                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
                 </svg>
               </div>
               <div class="company-info">
@@ -1302,14 +1508,17 @@
   <section class="achievements-section" id="achievements">
     <div class="container">
       <h2 class="section-title">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="title-icon" viewBox="0 0 16 16">
-          <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
-          <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="title-icon"
+          viewBox="0 0 16 16">
+          <path
+            d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z" />
+          <path
+            d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z" />
         </svg>
         <span class="title-text">My Achievements</span>
       </h2>
-      
+
       <div class="achievements-grid">
         <!-- Achievement 1 -->
         <div class="achievement-card">
@@ -1323,13 +1532,14 @@
             </ul>
           </div>
           <div class="card-footer">
-            <a href="https://drive.google.com/file/d/1rWJtKHQRNJo11E2AGA5EcaJAKY8E3yul/view?usp=sharing" target="_blank" class="view-certificate-btn">
+            <a href="https://drive.google.com/file/d/1rWJtKHQRNJo11E2AGA5EcaJAKY8E3yul/view?usp=sharing" target="_blank"
+              class="view-certificate-btn">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
           </div>
         </div>
-        
+
         <!-- Achievement 2 -->
         <div class="achievement-card">
           <div class="card-header">
@@ -1342,7 +1552,8 @@
             </ul>
           </div>
           <div class="card-footer">
-            <a href="https://drive.google.com/file/d/1c0a7Dz48VfuCY0AjpnKmxdbqRalXrzI4/view?usp=sharing" target="_blank" class="view-certificate-btn">
+            <a href="https://drive.google.com/file/d/1c0a7Dz48VfuCY0AjpnKmxdbqRalXrzI4/view?usp=sharing" target="_blank"
+              class="view-certificate-btn">
               View Certificate
               <i class="fas fa-external-link-alt"></i>
             </a>
@@ -1354,7 +1565,7 @@
   <br><br>
   <footer>
     <div class="text">
-      <h6>Created By <a href="#">| Madhur Dhondu Patil </a> | &#169; 2025</h6>
+      <h6>Created By | <a href="https://www.linkedin.com/in/madhurpatilofficial/">Madhur Dhondu Patil </a> | &#169; 2025</h6>
     </div>
   </footer>
 
