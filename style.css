@@ -525,6 +525,24 @@ nav.sticky .menu-btn {
   position: relative;
   overflow: hidden;
 }
+.cta-container {
+  display: flex;
+  gap: 1rem; /* Adjust gap between buttons as needed */
+  padding: 0.5rem 0; /* Default padding for desktop */
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .cta-container {
+    padding: 0.5rem 0; /* Reduced padding for mobile */
+  }
+  
+  /* Optional: Adjust button sizes for mobile */
+  .cta-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
 
 .cta-button.primary {
   background: #f1f3ff;
