@@ -3084,3 +3084,32 @@ footer .text a:hover {
 .align {
   text-align: left;
 }
+
+.company-logo img {
+  max-width: 50px; /* default desktop size */
+  height: auto;     /* keep aspect ratio */
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .company-logo img {
+    max-width: 70px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .company-logo img {
+        max-width: 50px;
+        max-height: 28px;
+    }
+.timeline-company {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between logo & text */
+}
+
+.company-logo img {
+  display: block;
+}
