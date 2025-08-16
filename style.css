@@ -3102,7 +3102,7 @@ footer .text a:hover {
 @media (max-width: 480px) {
     .company-logo img {
         max-width: 50px;
-        max-height: 28px;
+        max-height: 25px;
     }
 .timeline-company {
   display: flex;
