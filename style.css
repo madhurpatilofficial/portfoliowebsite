@@ -770,7 +770,7 @@ nav.sticky .menu-btn {
   animation-delay: 1s;
 }
 
-.tech-badge.ng {
+.tech-badge.microservices {
   top: 85%;
   right: 20%;
   background: linear-gradient(135deg, rgba(61, 90, 254, 0.2), rgba(61, 90, 254, 0.1));
@@ -778,11 +778,11 @@ nav.sticky .menu-btn {
   animation-delay: 1s;
 }
 
-.tech-badge.ui {
+.tech-badge.ng {
   top: 60%;
   left: -5%;
   background: linear-gradient(135deg, rgba(255, 213, 0, 0.2), rgba(255, 213, 0, 0.1));
-  color: #FFD500;
+  color: #e4139e;
   animation-delay: 2s;
 }
 
@@ -1003,7 +1003,7 @@ section .content {
 .section-subtitle {
   color: var(--text-medium);
   font-size: 1.1rem;
-  margin: 0;
+  text-align: center;
 }
 
 /* Profile Container */
@@ -2024,7 +2024,6 @@ footer .text a:hover {
 
 .achievements {
   padding: 4rem 0;
-  background-color: #f8f9fa;
 }
 
 .container {
@@ -3114,3 +3113,5 @@ footer .text a:hover {
 .company-logo img {
   display: block;
 }
+
+
